@@ -1,0 +1,14 @@
+img {
+    width: 300px;
+    height: auto;
+}
+
+#about-me {
+	width: 60%;
+	float: left;
+}
+
+#connect-with-me {
+	width: 40%;
+	float: left;
+}
