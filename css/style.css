@@ -1,9 +1,12 @@
 body {
-	background-image: url("ep_naturalblack.png");
+	background-image: url("https://unc.bootcampcontent.com/UNC-Coding-Boot-Camp/08-14-2017-Chapel-Hill-Class-Repository-FSF/raw/master/01-Class-Content/01-html-git-css/02-Homework/Instructions/Images/Portfolio_About.png");
+	background-size: 100% 80%;
 }
 
 h1 {
 	float: left;
+	padding-left: 15%;
+	color: black;
 }
 
 img {
@@ -11,20 +14,18 @@ img {
     height: auto;
 }
 
-.header {
-	float: left;
-}
-
-#padding {
-	padding-left: 50%;
-}
-
 #about-me {
-	width: 60%;
+	width: 49%;
+    border: 1px solid black;
+    padding: 10px;
+   	margin: 10px 20% 20% 10%;
+}
+
+.connect-with-me {
+	width: 40%;
 	float: left;
 }
 
-#connect-with-me {
-	width: 40%;
+.image-align {
 	float: left;
 }
