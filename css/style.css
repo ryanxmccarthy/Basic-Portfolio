@@ -1,6 +1,22 @@
+body {
+	background-image: url("ep_naturalblack.png");
+}
+
+h1 {
+	float: left;
+}
+
 img {
     width: 300px;
     height: auto;
+}
+
+.header {
+	float: left;
+}
+
+#padding {
+	padding-left: 50%;
 }
 
 #about-me {
