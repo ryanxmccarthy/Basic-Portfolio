@@ -1,59 +1,67 @@
 body {
-	background-image: url("https://unc.bootcampcontent.com/UNC-Coding-Boot-Camp/08-14-2017-Chapel-Hill-Class-Repository-FSF/raw/master/01-Class-Content/01-html-git-css/02-Homework/Instructions/Images/Portfolio_About.png");
-	background-size: 1200px 100%;
+	margin: 0px;
+	color: #777;
 }
 
-h1 {
-	float: left;
-	padding-left: 15%;
-	color: black;
+h1, h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
 }
 
-img {
-    width: 300px;
-    height: auto;
+a {
+	color: #777;
+	text-decoration: none;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    padding-top: 20px;
+header {
+	background: #fff;
+	border-bottom: 2px solid #ccc;
 }
 
-li {
-	display: inline;
+p {
+	color: #777;
 }
 
-#about-me {
-	width: 49%;
-    border: 1px solid black;
-    padding: 10px;
-   	margin: 80px 40px 15% 139px;
+hr {
+	color: #ccc;
 }
 
-#contact-me {
-	width: 49%;
-    border: 1px solid black;
-    padding: 10px;
-   	margin: 20px 20% 20% 10%;
+footer {
+	background: #666;
+	color: #aaa;
+	border-top: 4px solid #4aaaa5;
+	padding: 40px;
+	text-align: center;
+	font-size: 15px;
 }
 
 #my-name {
-	padding-left: 13%;
-	padding-right: 37%;
-	font-size: 30px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #fff;
+	background: #4aaaa5;
+	font-size: 32px;
+	margin: 0 865px 0 150px;
+	padding: 30px 20px 30px 20px;
 }
 
-.right-border {
-	border-right: 1px solid #bbb;
+#about-me {
+	border: 3px solid #ddd;
+	padding: 0px 30px 40px 30px;
+	margin: 40px 500px 100px 100px;
 }
 
-.connect-with-me {
-	width: 40%;
-	float: left;
+#profile {
+	width: 240px;
+	height: auto;
 }
 
-.image-align {
-	float: left;
+#connect-with-me {
+	border: 3px solid #ddd;
+	padding: 0px 30px 40px 30px;
+	margin: 0px 900px 100px 100px;
+}
+
+#icon {
+	width: 60px;
+	height: auto;
 }
