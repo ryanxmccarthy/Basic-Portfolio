@@ -56,10 +56,11 @@ footer {
 
 #about-me {
 	border: 3px solid #ddd;
-	padding: 0px 30px 40px 30px;
+	padding: 0px 30px 0px 30px;
 	float: left;
-	width: 70%;
+	width: 60%;
 	background: #fff;
+	margin: 40px 40px 40px 0;
 }
 
 #profile {
@@ -73,6 +74,7 @@ footer {
 	float: left;
 	width: 30%;
 	background: #fff;
+	margin: 40px 0;
 }
 
 #icon {
