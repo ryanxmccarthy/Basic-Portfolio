@@ -1,6 +1,10 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
-	margin: 0px;
-	color: #777;
+	margin: 0 auto;
+	background-image: url("images/background.png");
 }
 
 h1, h2 {
@@ -35,6 +39,12 @@ footer {
 	font-size: 15px;
 }
 
+.clearfix {
+	display: block;
+	width: 1024px;
+	margin: 0 auto;
+}
+
 #my-name {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #fff;
@@ -47,7 +57,9 @@ footer {
 #about-me {
 	border: 3px solid #ddd;
 	padding: 0px 30px 40px 30px;
-	margin: 40px 500px 100px 100px;
+	float: left;
+	width: 70%;
+	background: #fff;
 }
 
 #profile {
@@ -58,10 +70,18 @@ footer {
 #connect-with-me {
 	border: 3px solid #ddd;
 	padding: 0px 30px 40px 30px;
-	margin: 0px 900px 100px 100px;
+	float: left;
+	width: 30%;
+	background: #fff;
 }
 
 #icon {
 	width: 60px;
 	height: auto;
+}
+
+.clearfix::after {
+    clear: both;
+    content: '';
+    display: block;
 }
