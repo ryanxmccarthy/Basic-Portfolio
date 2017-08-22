@@ -47,9 +47,9 @@ footer {
 	background: #666;
 	color: #aaa;
 	border-top: 6px solid #4aaaa5;
-	padding: 40px;
+	padding: 33px;
 	text-align: center;
-	font-size: 13px;
+	font-size: 12px;
 }
 
 .clearfix {
@@ -74,7 +74,7 @@ footer {
 	float: left;
 	width: 60%;
 	background: #fff;
-	margin: 40px 40px 53px 0;
+	margin: 40px 40px 0 0;
 }
 
 #profile {
@@ -107,6 +107,10 @@ footer {
 
 .border-right {
 	border-right: 2px solid #777;
+}
+
+.content {
+  min-height: calc(85vh - 70px);
 }
 
 .clearfix::after {
