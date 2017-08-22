@@ -2,9 +2,18 @@
 	box-sizing: border-box;
 }
 
+nav {
+	width: auto;
+	float: right;
+	padding-top: 35px;
+	font-size: 24px;
+	width: 35%;
+}
+
 body {
 	margin: 0 auto;
-	background-image: url("images/background.png");
+	background-image: url("Desktop/background.png");
+	background: #eee;
 }
 
 h1, h2 {
@@ -12,31 +21,35 @@ h1, h2 {
 	color: #4aaaa5;
 }
 
-a {
-	color: #777;
-	text-decoration: none;
+h1 {
+	font-size: 30px;
 }
 
-header {
-	background: #fff;
-	border-bottom: 2px solid #ccc;
+nav a {
+	color: #777;
+	text-decoration: none;
+	width: 30%;
+	padding-right: 5px;
 }
 
 p {
 	color: #777;
+	line-height: 200%;
 }
 
 hr {
+	background: #ccc;
 	color: #ccc;
+    height: 3px;
 }
 
 footer {
 	background: #666;
 	color: #aaa;
-	border-top: 4px solid #4aaaa5;
+	border-top: 6px solid #4aaaa5;
 	padding: 40px;
 	text-align: center;
-	font-size: 15px;
+	font-size: 13px;
 }
 
 .clearfix {
@@ -50,29 +63,32 @@ footer {
 	color: #fff;
 	background: #4aaaa5;
 	font-size: 32px;
-	margin: 0 865px 0 150px;
 	padding: 30px 20px 30px 20px;
+	float: left;
+	margin-left: 100px
 }
 
 #about-me {
-	border: 3px solid #ddd;
+	border: 2px solid #ddd;
 	padding: 0px 30px 0px 30px;
 	float: left;
 	width: 60%;
 	background: #fff;
-	margin: 40px 40px 40px 0;
+	margin: 40px 40px 53px 0;
 }
 
 #profile {
 	width: 240px;
 	height: auto;
+	float: left;
+	margin: 10px 20px 0 0;
 }
 
 #connect-with-me {
-	border: 3px solid #ddd;
+	border: 2px solid #ddd;
 	padding: 0px 30px 40px 30px;
 	float: left;
-	width: 30%;
+	width: 27%;
 	background: #fff;
 	margin: 40px 0;
 }
@@ -80,6 +96,17 @@ footer {
 #icon {
 	width: 60px;
 	height: auto;
+	margin: 3.5px;
+}
+
+#header {
+	background: #fff;
+	border-bottom: 2px solid #ccc;
+	height: 97px;
+}
+
+.border-right {
+	border-right: 2px solid #777;
 }
 
 .clearfix::after {
